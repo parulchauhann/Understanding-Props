@@ -1,0 +1,18 @@
+/* add your styles here */
+/* add your styles here */
+body {
+    text-align: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    width: fit-content;
+    gap: 1vw;
+}
+.column img{
+    width: 45vw;
+    height: 82vh;
+    margin: 1vw 1vw 1vw 1vw;
+}
